@@ -21,7 +21,6 @@ def check_report(report):
             return 1
     return 0
 
-
 def task2(reports):
     safe_reports = 0
     for report in reports:
@@ -35,16 +34,11 @@ def task2(reports):
             safe_reports += 1
     return safe_reports
 
-
-
 def remove_at_index(report, i):
     if 0 <= i < len(report):
         return report[:i] + report[i+1:]
     else:
         raise IndexError("Index out of range.")
-
-
-
 
 if __name__ == '__main__':
     reports = []
