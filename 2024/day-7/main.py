@@ -1,4 +1,3 @@
-import math
 import operator
 
 def task1(tests):
